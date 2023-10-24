@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.win-board .cell {
+  background-color: rgba(0, 255, 42, 0.986);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.reset {
+  margin-top: 50px;
+  font-size: 20px;
+}
